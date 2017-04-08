@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">tranning</string>
+    <string name="fit_all_kinds_of_language">适配不同的语言</string>
+    <string name="fit_diff_device">兼容不同的设备</string>
+    <string name="view">自定义view</string>
+    <string name="_1_5fargemnt">1.5fargemnt</string>
+    <string name="swipefreshlayout">swipefreshLayout</string>
 </resources>

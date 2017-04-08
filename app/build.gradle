@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 24
     buildToolsVersion "24.0.3"
     defaultConfig {
         applicationId "com.xq.caroline.tranning"
-        minSdkVersion 15
-        targetSdkVersion 25
+        minSdkVersion 21
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -24,6 +24,18 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.1.0'
+
+    //导入support Library v7包
+    compile 'com.android.support:appcompat-v7:24.1.0'
     testCompile 'junit:junit:4.12'
+
+    //recycle
+    compile 'com.android.support:recyclerview-v7:24.0.+'
+
+    //card
+    compile 'com.android.support:cardview-v7:24.1.1'
+
+    //butterknife
+    compile 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
 }

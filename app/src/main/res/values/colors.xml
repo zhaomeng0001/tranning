@@ -1,6 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+
+        <color name="colorPrimary">#3F51B5</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#FF4081</color>
+        <color name="black_overlay">#ff000000</color>
+
+        <color name="background_green">#ff4e9336</color>
+
+        <color name="background_white">#ffffffff</color>
+
+        <color name="background_gray">#ffEBEBEB</color>
+
+        <color name="background_yellow">#fff8b551</color>
+        <color name="color_1">#5f7d88</color>
+        <color name="color_2">#000000</color>
+        <color name="color_3">#ffffff</color>
+        <color name="color_4">#aaaaaa</color>
+        <color name="color_5">#35474b</color>
+
+    <!-- 字体颜色 -->
+    <color name="info_tint_color">#fb050d</color>
+    <color name="primary_fc1">#030303</color>
+    <color name="secondary_fc2">#98a1a8</color>
+    <color name="disable_fc3">#c2cbd0</color>
+    <color name="tip_fc3">#c2cbd0</color>
+    <color name="white">#c2cbd0</color>
+    <color name="caution_fc4">#f35959</color>
+    <color name="guide_fc5">#3cbaff</color>
+    <color name="accent_fc5">#3cbaff</color>
+    <color name="primary_light_fc6">#ffffff</color>
+    <color name="press_fc7">#308ec2</color>
+    <color name="keyword_nor_fc8">#95d10e</color>
+    <color name="keyword_pre_fc9">#fd6691</color>
+    <color name="btn_light_disable_login">#7fffffff</color>
+
+    <color name="keyword_tasK_me">#76f7ff</color>
+    <color name="keyword_task_left">@color/guide_fc5</color>
+
+    <color name="primary_light_fc6_pressed">#0D0c213f</color>
+    <color name="guide_fc5_pressed">#803cbaff</color>
+    <color name="agora_color_orange">#f87e4e</color>
+    <color name="menu_normal">#ccffffff</color>
+
+    <!-- 蒙板 -->
+    <color name="popup_bg">#4d04142a</color><!-- 弹出框外透明层30% -->
+    <color name="popup">#c004142a</color><!-- 弹出框背景75% -->
+    <color name="app_press">#1a000000</color><!-- 应用图标按下时效果10% -->
+
+    <color name="title_bar_line">#d5dbdf</color>
+
+    <color name="accent_fc5_press">#8C3cbaff</color>
+    <color name="caution_fc4_press">#8cf35959</color>
+
+    <!-- 导航栏dark -->
+    <color name="btn_nav_dark_normal">#3cbaff</color>
+    <color name="btn_nav_dark_press">#dfebf2</color>
+    <color name="btn_nav_dark_disable">#bdbdbd</color>
+    <!-- 导航栏light -->
+    <color name="btn_nav_light_normal">#ffffff</color>
+    <color name="btn_nav_light_press">#dfebf2</color>
+    <color name="btn_nav_light_disable">#bdbdbd</color>
+
+    <!-- 按钮通用背景色 -->
+    <color name="btn_normal">#3cbaff</color>
+    <color name="btn_press">#af3cbaff</color>
+    <color name="btn_disable">#e9ecf1</color>
+    <color name="btn_normal_half">#7F3cbaff</color>
+    <!-- 对话框按钮通用背景色 -->
+    <color name="btn_dialog_normal">#ffffff</color>
+    <color name="btn_dialog_press">#80ffffff</color>
+
+    <!-- 输入框 -->
+    <color name="edit_box_normal">#dce1e8</color>
+    <color name="edit_box_forcus">#3cbaff</color>
+    <color name="edit_box_error">#803cbaff</color>
+    <color name="edit_font_hint">#bdbdbd</color>
+    <color name="edit_font_input">#3f3f3f</color>
+
+    <!-- 列表 -->
+    <color name="listview_item_normal">#ffffff</color>
+    <color name="listview_item_press">#80e8eef0</color>
+
+    <!-- 背景色 -->
+    <color name="backgroud_1">#eaeff3</color>
+    <color name="backgroud_2">#ffffff</color>
+    <color name="backgroud_subtitle">#f7f9fa</color>
+
+    <!-- 分隔线 -->
+    <color name="dividing_line">#eaeff3</color>
+
+    <color name="agoravoice_title_bg">#3dd2e8</color>
+    <color name="agoravoice_tip_bg">#f5f5f5</color>
+
+    <color name="file_common">#f7bf28</color>
+    <color name="file_common_press">#7ff7bf28</color>
+    <color name="full_black">#000000</color>
+
+    <color name="msg_reply_left">#9a9a9a</color>
+    <color name="msg_reply_line_left">#cfd5df</color>
+    <color name="msg_reply_right">#bae7ff</color>
+    <color name="msg_reply_line_right">#a0ddff</color>
+
+    <color name="edittext_bg_color">#f1f4f8</color>
+
+    <color name="chat_agora_bg">#cc31d2ea</color>
+    <color name="chat_at_bg">#cc3cbaff</color>
+
+    <color name="login_divider_color">#bac1cc</color>
+
+    <color name="tag_top_banner">#7ed1ff</color>
+    <color name="agora_color_fc10">#31d2ea</color>
+    <color name="backgroud_alph">#ccffffff</color>
+
+    <color name="common_pink">#fd6691</color>
+    <color name="alph30white">#4dffffff</color>
+    <color name="zxing_preview_bg">#CC0C213F</color>
+    <color name="zx_titlebar_bg">#E60C213F</color>
+    <!--百分比-开头字母-->
+    <!--100% —FF-->
+    <!--95% — F2-->
+    <!--90% — E6-->
+    <!--85% — D9-->
+    <!--80% — CC-->
+    <!--75% — BF-->
+    <!--70% — B3-->
+    <!--65% — A6-->
+    <!--60% — 99-->
+    <!--55% — 8C-->
+    <!--50% — 80-->
+    <!--45% — 73-->
+    <!--40% — 66-->
+    <!--35% — 59-->
+    <!--30% — 4D-->
+    <!--25% — 40-->
+    <!--20% — 33-->
+    <!--15% — 26-->
+    <!--10% — 1A-->
+    <!--5% — 0D-->
+    <!--0% — 00-->
 </resources>
+

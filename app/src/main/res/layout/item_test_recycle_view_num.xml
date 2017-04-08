@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    android:layout_marginBottom="20dp"
+    app:cardBackgroundColor="@color/accent_fc5"
+    android:layout_height="wrap_content">
+<TextView
+    android:gravity="center_horizontal"
+    android:id="@+id/test_recycle_view_item_name"
+    android:layout_width="match_parent"
+    android:layout_height="70dp" />
+</android.support.v7.widget.CardView>
